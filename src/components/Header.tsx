@@ -10,11 +10,11 @@ export function Header() {
             {/* Nav */}
             <nav>
                 <ul className='flex gap-[3.375rem]'>
-                    <li className='text-xl font-semibold'><Link href="/about">About</Link></li>
-                    <li className='text-xl font-semibold'><Link href="/how-we-give">How We Give</Link></li>
-                    <li className='text-xl font-semibold'><Link href="/donation">Donations & Support</Link></li>
-                    <li className='text-xl font-semibold'><Link href="/news">News</Link></li>
-                    <li className='text-xl font-semibold'><Link href="/contact">Contact</Link></li>
+                    <li className='text-xl font-semibold hover:text-gray-400 transition duration-300'><Link href="/about">About</Link></li>
+                    <li className='text-xl font-semibold hover:text-gray-400 transition duration-300'><Link href="/how-we-give">How We Give</Link></li>
+                    <li className='text-xl font-semibold hover:text-gray-400 transition duration-300'><Link href="/donation">Donations & Support</Link></li>
+                    <li className='text-xl font-semibold hover:text-gray-400 transition duration-300'><Link href="/news">News</Link></li>
+                    <li className='text-xl font-semibold hover:text-gray-400 transition duration-300'><Link href="/contact">Contact</Link></li>
                 </ul>
             </nav>
             <button className='py-[0.875rem] px-[3.25rem] bg-primary text-xl font-semibold rounded-[3.125rem] cursor-pointer transition duration-300 hover:opacity-70'>

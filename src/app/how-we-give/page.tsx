@@ -1,14 +1,14 @@
 import { Header } from "@/components/Header"
 import { Conference } from "@/components/Conference"
 import { Footer } from "@/components/Footer"
-import { About } from "@/components/About"
+import { HowWeGivePage } from "@/components/HowWeGivePage"
 
 
 export default  function Page() {
   return (
     <div>
       <Header/>
-      <About/>
+      <HowWeGivePage/>
       <Conference/>
       <Footer/>
     </div>
