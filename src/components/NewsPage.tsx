@@ -53,37 +53,47 @@ export function NewsPage() {
                     <h2 className="text-tertiary text-3xl font-semibold leading-1 pb-4">Event Sponsorship</h2>
                     <p className="text-lg font-normal leading-relaxed">Take your support to the next level with a sponsorship/table purchase for the event. See details below.</p>
                     <table>
-                        <tr className="text-left text-lg font-semibold leading-relaxed border-b-1 border-secondary">
-                            <th className="py-6 px-4">Sponsor Level</th>
-                            <th className="py-6 px-4">Amount</th>
-                            <th className="py-6 px-4">Receives</th>
-                        </tr>
-                        <tr className="text-left text-lg font-normal leading-relaxed border-b-1 border-secondary">
-                            <td  className="py-6 px-4">Platinum</td>
-                            <td className="py-6 px-4">$50,000</td>
-                            <td className="py-6 px-4">Four complimentary tables (total of 40 tickets)</td>
-                        </tr>
-                        <tr className="text-left text-lg font-normal leading-relaxed border-b-1 border-secondary">
-                            <td className="py-6 px-4">Gold</td>
-                            <td className="py-6 px-4">$20,000</td>
-                            <td className="py-6 px-4">Three complimentary tables (total of 30 tickets)</td>
-                        </tr>
-                        <tr className="text-left text-lg font-normal leading-relaxed border-b-1 border-secondary">
-                            <td className="py-6 px-4">Silver</td>
-                            <td className="py-6 px-4">$510,000</td>
-                            <td className="py-6 px-4">Two complimentary tables (total of 20 tickets)</td>
-                        </tr>
-                        <tr className="text-left text-lg font-normal leading-relaxed border-b-1 border-secondary">
-                            <td className="py-6 px-4">Bronze</td>
-                            <td className="py-6 px-4">$5,000</td>
-                            <td className="py-6 px-4">One complimentary table (total of 10 tickets)</td>
-                        </tr>
+                        <thead>
+                            <tr className="text-left text-lg font-semibold leading-relaxed border-b-1 border-secondary">
+                                <th className="py-6 px-4">Sponsor Level</th>
+                                <th className="py-6 px-4">Amount</th>
+                                <th className="py-6 px-4">Receives</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr className="text-left text-lg font-normal leading-relaxed border-b-1 border-secondary">
+                                <td  className="py-6 px-4">Platinum</td>
+                                <td className="py-6 px-4">$50,000</td>
+                                <td className="py-6 px-4">Four complimentary tables (total of 40 tickets)</td>
+                            </tr>
+                            <tr className="text-left text-lg font-normal leading-relaxed border-b-1 border-secondary">
+                                <td className="py-6 px-4">Gold</td>
+                                <td className="py-6 px-4">$20,000</td>
+                                <td className="py-6 px-4">Three complimentary tables (total of 30 tickets)</td>
+                            </tr>
+                            <tr className="text-left text-lg font-normal leading-relaxed border-b-1 border-secondary">
+                                <td className="py-6 px-4">Silver</td>
+                                <td className="py-6 px-4">$510,000</td>
+                                <td className="py-6 px-4">Two complimentary tables (total of 20 tickets)</td>
+                            </tr>
+                            <tr className="text-left text-lg font-normal leading-relaxed border-b-1 border-secondary">
+                                <td className="py-6 px-4">Bronze</td>
+                                <td className="py-6 px-4">$5,000</td>
+                                <td className="py-6 px-4">One complimentary table (total of 10 tickets)</td>
+                            </tr>
+                        </tbody>
                     </table>
                     <p className="text-lg font-normal leading-relaxed pt-6">Email <span className="font-bold underline">Crystal Leighton</span> for additional details and to purchase sponsorship.</p>
                     <div className="pt-17.5 pb-16">
                         <img src="slider1.png" alt=""/>
                         <img src="slider1.png" alt=""/>
                         <img src="slider1.png" alt=""/>
+                    </div>
+
+                    <div>
+                        <button><img src="Ellipse 2.svg" alt="" /></button>
+                        <button><img src="Ellipse 2.svg" alt="" /></button>
+                        <button><img src="Ellipse 2.svg" alt="" /></button>
                     </div>
                 </div>
 
