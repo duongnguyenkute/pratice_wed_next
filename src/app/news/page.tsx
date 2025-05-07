@@ -1,14 +1,14 @@
 import { Header } from "@/components/Header"
 import { Conference } from "@/components/Conference"
 import { Footer } from "@/components/Footer"
-import { NewsPage } from "@/components/NewsPage"
+import News from "@/components/News"
 
 
 export default  function Page() {
   return (
     <div>
       <Header/>
-      <NewsPage/>
+      <News/>
       <Conference/>
       <Footer/>
     </div>

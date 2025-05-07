@@ -1,16 +1,15 @@
-import Image from "next/image";
 import { Header } from "@/components/Header"
-import Mission from "@/components/Mission"
 import { Conference } from "@/components/Conference"
 import { Footer } from "@/components/Footer"
+import Contact from "@/components/Contact"
 
-export default function Home() {
+export default  function Page() {
   return (
     <div>
       <Header/>
-      <Mission/>
+      <Contact/>
       <Conference/>
       <Footer/>
     </div>
-  );
+  )
 }

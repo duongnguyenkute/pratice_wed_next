@@ -13,11 +13,11 @@
   --color-quaternary: #F1F5FA;
 }
 
-
-
-
 body {
   background: var(--background);
   color: #001446;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+

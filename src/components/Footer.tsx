@@ -2,7 +2,7 @@ export function Footer() {
     return(
         <div className="px-18 py-25 flex gap-13">
             {/* Information */}
-            <div className="flex-1">
+            <div className="flex-1 w-1/4">
                 <div className="pb-8">
                     <div><img src="logo.png" alt="" /></div>
                 </div>
@@ -24,7 +24,7 @@ export function Footer() {
                 </div>
             </div>
             {/* About */}
-            <div className="flex-1">
+            <div className="flex-1 w-1/4">
                 <h4 className="text-lg font-bold leading-snug">About us</h4>
                 <p className="text-base font-normal leading-normal pt-3">
                     The American Respiratory Care Foundation is a nonprofit organization 
@@ -36,7 +36,7 @@ export function Footer() {
                 </p>
             </div>
             {/* How We Give */}
-            <div className="flex1">
+            <div className="flex1 w-1/4">
                 <h4 className="text-lg font-bold leading-snug">How We Give</h4>
                 <p className="pb-3 pt-3 border-b-1 border-b-secondary">Student Awards</p>
                 <p className="pb-3 pt-3 border-b-1 border-b-secondary">Research Awards & Grants</p>
@@ -46,7 +46,7 @@ export function Footer() {
 
             </div>
             {/* Donations & Support */}
-            <div className="flex-1">
+            <div className="flex-1 w-1/4">
                 <h4 className="text-lg font-bold leading-snug">Donations & Support</h4>
                 <p className="pb-3 pt-3 border-b-1 border-b-secondary">Make A Donation</p>
                 <p className="pb-3 pt-3 border-b-1 border-b-secondary">Endowments</p>
