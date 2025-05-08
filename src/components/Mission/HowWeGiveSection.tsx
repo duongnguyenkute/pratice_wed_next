@@ -1,34 +1,22 @@
 import React from 'react'
+import Award from './Award'
 
 const HowWeGiveSection = () => {
   return (
-    <div className="pt-16 px-36 pb-24 flex flex-col gap-10 items-center">
+    <div 
+      className="flex flex-col gap-4 items-center
+                pt-4 px-4 pb-6 
+                sm:pt-6 sm:px-6 sm:pb-8 
+                md:pt-8 md:px-6 md:pb-10 
+                xl:pt-16 xl:px-32 xl:pb-24 xl:gap-10
+      ">
       <h3 className="font-bold leading-10 items-center text-5xl">How We Give</h3>
-      <div className="flex justify-between w-full">
-        <div className="flex flex-col justify-center items-center">
-                        <img src="GraduationCap.svg" alt="" />
-                        <h3 className="text-3xl font-semibold">Student</h3>
-                        <h3 className="text-3xl font-semibold pb-6">Awards</h3>
-                        <button className="pt-3 pb-3.5 px-9 bg-primary text-xl font-semibold rounded-[3.125rem] cursor-pointer transition duration-300 hover:opacity-70">Apply Now</button>
-        </div>
-        <div className="flex flex-col justify-center items-center">
-                        <img src="GraduationCap.svg" alt="" />
-                        <h3 className="text-3xl font-semibold">Research Awards</h3>
-                        <h3 className="text-3xl font-semibold pb-6">& Grants</h3>
-                        <button className="pt-3 pb-3.5 px-9 bg-primary text-xl font-semibold rounded-[3.125rem] cursor-pointer transition duration-300 hover:opacity-70">Apply Now</button>
-        </div>
-        <div className="flex flex-col justify-center items-center">
-                        <img src="GraduationCap.svg" alt="" />
-                        <h3 className="text-3xl font-semibold">Achievement</h3>
-                        <h3 className="text-3xl font-semibold pb-6">Awards</h3>
-                        <button className="pt-3 pb-3.5 px-9 bg-primary text-xl font-semibold rounded-[3.125rem] cursor-pointer transition duration-300 hover:opacity-70">Apply Now</button>
-        </div>
-        <div className="flex flex-col justify-center items-center">
-                        <img src="GraduationCap.svg" alt="" />
-                        <h3 className="text-3xl font-semibold">International</h3>
-                        <h3 className="text-3xl font-semibold pb-6">Fellowships</h3>
-                        <button className="pt-3 pb-3.5 px-9 bg-primary text-xl font-semibold rounded-[3.125rem] cursor-pointer transition duration-300 hover:opacity-70">Apply Now</button>
-        </div>
+      <div 
+        className="flex flex-col flex-wrap justify-between w-full sm:flex-row lg:flex-nowrap lg:gap-4">
+        <Award img = "GraduationCap.svg" title1 = "Student" title2 = "Awards" />
+        <Award img = "BookOpenText.svg" title1 = "Research Awards" title2 = "& Grants" />
+        <Award img = "Trophy.svg" title1 = "Achievement" title2 = "Awards" />
+        <Award img = "Globe.png" title1 = "International" title2 = "Fellowships" />
       </div>
     </div>
   )

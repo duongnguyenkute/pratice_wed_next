@@ -2,8 +2,8 @@ import React from 'react'
 
 const OurMissionRight = () => {
   return (
-    <div className='h-full'>
-        <img className='h-full' src="mission.png" alt="" />
+    <div className='w-1/2'>
+        <img className='' src="mission.png" alt="" />
     </div>
   )
 }

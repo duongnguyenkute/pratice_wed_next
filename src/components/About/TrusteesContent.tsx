@@ -1,19 +1,23 @@
 import React from 'react'
-
-const TrusteesContent = () => {
+interface TrusteesContentProps {
+  title : String;
+  desribe1: String
+  desribe2: String
+}
+const TrusteesContent = ( { title, desribe1, desribe2 }: TrusteesContentProps ) => {
   return (
-    <div className='w-2/5 pb-12.5'>
-        <h3 className='pt-5 pb-3 text-5xl font-bold leading-14'>Board of Trustees</h3>
-        <p className='text-lg font-normal leading-relaxed'>
-            The American Respiratory Care Foundation is a nonprofit organization
-            formed for the purpose of supporting research, education, and
-            charitable activities.
+    <div className='w-5/10 pb-12.5'>
+        <h3 className='pt-5 pb-3 text-5xl font-bold leading-14'> {title}</h3>
+        { desribe1 && (
+          <div>
+            <p className='text-lg font-normal leading-relaxed'>
+            {desribe1}
             <br />
             <br />
-            The ARCF seeks to educate the public about respiratory health, assist 
-            in the training and continuing education of health care providers, and improve 
-            the quality of our environment.
+            {desribe2}
         </p>
+          </div>
+        )}
     </div>
   )
 }

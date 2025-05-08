@@ -1,6 +1,6 @@
-import { Header } from "@/components/Header"
+import Header from "@/components/Header"
 import { Conference } from "@/components/Conference"
-import { Footer } from "@/components/Footer"
+import Footer from "@/components/Footer"
 import News from "@/components/News"
 
 

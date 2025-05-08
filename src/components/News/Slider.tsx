@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 
 const Slider = () => {
   return (
-    <div className='pt-17.5 pb-16 border-b-1'>
+    <div className='w-full pt-17.5 pb-16 border-b-1'>
         <Swiper
             modules={[Pagination, Autoplay]}
             spaceBetween={30}
@@ -24,13 +24,13 @@ const Slider = () => {
             
             >
             <SwiperSlide>
-                <img src="slider1.png" alt="Slide 1" />
+                <img className='w-full' src="slider1.png" alt="Slide 1" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="slider1.png" alt="Slide 2" />
+                <img className='w-full' src="slider1.png" alt="Slide 2" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src="slider1.png" alt="Slide 3" />
+                <img className='w-full' src="slider1.png" alt="Slide 3" />
             </SwiperSlide>
         </Swiper>
 
